@@ -2,10 +2,12 @@
   "name": "clickup-api-tests",
   "version": "1.0.0",
   "scripts": {
-    "test": "newman run postman/ClickUpCommentsCRUDFullCycle.postman_collection.json -e postman/ClickUpAPIEnvironment.postman_environment.json --reporters cli,junit,htmlextra --reporter-junit-export reports/results.xml --reporter-htmlextra-export reports/report.html"
+    "test": "newman run postman/ClickUpCommentsCRUDFullCycle.postman_collection.json -e postman/ClickUpAPIEnvironment.postman_environment.json --reporters cli,junit,htmlextra --reporter-junit-export reports/results.xml --reporter-htmlextra-export reports/report.html",
+    
+    "performance": "newman run postman/ClickUpCommentsCRUDFullCycle.postman_collection.json -e postman/ClickUpAPIEnvironment.postman_environment.json -n 100 --reporters cli,htmlextra,junit --reporter-htmlextra-export reports/performance.html --reporter-junit-export reports/performance.xml"
   },
   "devDependencies": {
-    "newman": "^6.2.2",
+    "newman": "^6.2.0",
     "newman-reporter-htmlextra": "^1.23.1"
   }
 }

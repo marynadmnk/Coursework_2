@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="ClickUp Comments CRUD Full Cycle" tests="13" time="3.061">
-  <testsuite name="POST - Create Flow / Create Comment" id="59e01903-cd1d-4941-ab8f-60056cf28d51" timestamp="2026-06-30T18:18:18.586Z" tests="2" failures="0" errors="0" time="0.458">
-    <testcase name="Status code 200/201" time="0.458" classname="PostCreateFlowCreateComment"/>
-    <testcase name="Has ID" time="0.458" classname="PostCreateFlowCreateComment"/>
+<testsuites name="ClickUp Comments CRUD Full Cycle" tests="13" time="4.131">
+  <testsuite name="POST - Create Flow / Create Comment" id="fde8367e-79a9-4db9-9fec-bc2a8017f803" timestamp="2026-06-30T18:47:53.538Z" tests="2" failures="0" errors="0" time="1.198">
+    <testcase name="Status code 200/201" time="1.198" classname="PostCreateFlowCreateComment"/>
+    <testcase name="Has ID" time="1.198" classname="PostCreateFlowCreateComment"/>
   </testsuite>
-  <testsuite name="POST - Create Flow / Get Created Comment" id="9833ef40-c3ac-412f-8493-48c54958f020" timestamp="2026-06-30T18:18:18.586Z" tests="2" failures="0" errors="0" time="0.180">
-    <testcase name="Status 200" time="0.180" classname="PostCreateFlowGetCreatedComment"/>
-    <testcase name="Correct comment returned" time="0.180" classname="PostCreateFlowGetCreatedComment"/>
+  <testsuite name="POST - Create Flow / Get Created Comment" id="7f9a1650-c33b-4f59-b9f0-7db50b6b029c" timestamp="2026-06-30T18:47:53.538Z" tests="2" failures="0" errors="0" time="0.269">
+    <testcase name="Status 200" time="0.269" classname="PostCreateFlowGetCreatedComment"/>
+    <testcase name="Correct comment returned" time="0.269" classname="PostCreateFlowGetCreatedComment"/>
   </testsuite>
-  <testsuite name="POST - Create Flow / Delete Created Comment" id="f51fc719-7b7e-4947-aafc-6455b3a931ea" timestamp="2026-06-30T18:18:18.586Z" tests="1" failures="0" errors="0" time="0.225">
-    <testcase name="Deleted successfully" time="0.225" classname="PostCreateFlowDeleteCreatedComment"/>
+  <testsuite name="POST - Create Flow / Delete Created Comment" id="9d2c4304-bbd5-4550-ac22-9507b2d64258" timestamp="2026-06-30T18:47:53.538Z" tests="1" failures="0" errors="0" time="0.549">
+    <testcase name="Deleted successfully" time="0.549" classname="PostCreateFlowDeleteCreatedComment"/>
   </testsuite>
-  <testsuite name="GET - Read Flow / Create Comment" id="75559493-88df-413c-bc38-a0b826641dd9" timestamp="2026-06-30T18:18:18.586Z" tests="2" failures="0" errors="0" time="0.236">
-    <testcase name="Status code 200/201" time="0.236" classname="GetReadFlowCreateComment"/>
-    <testcase name="Has ID" time="0.236" classname="GetReadFlowCreateComment"/>
+  <testsuite name="GET - Read Flow / Create Comment" id="9b93e2f3-1cf9-4049-97aa-17cee68b683b" timestamp="2026-06-30T18:47:53.538Z" tests="2" failures="0" errors="0" time="0.239">
+    <testcase name="Status code 200/201" time="0.239" classname="GetReadFlowCreateComment"/>
+    <testcase name="Has ID" time="0.239" classname="GetReadFlowCreateComment"/>
   </testsuite>
-  <testsuite name="GET - Read Flow / Get All Comments" id="34cf0a99-a7e0-4f4b-bdd8-b29aa74c4a9b" timestamp="2026-06-30T18:18:18.586Z" tests="2" failures="0" errors="0" time="0.188">
-    <testcase name="Status 200" time="0.188" classname="GetReadFlowGetAllComments"/>
-    <testcase name="Comments array exists" time="0.188" classname="GetReadFlowGetAllComments"/>
+  <testsuite name="GET - Read Flow / Get All Comments" id="defc1efe-221e-47bf-a9d3-00844bf8b87e" timestamp="2026-06-30T18:47:53.538Z" tests="2" failures="0" errors="0" time="0.152">
+    <testcase name="Status 200" time="0.152" classname="GetReadFlowGetAllComments"/>
+    <testcase name="Comments array exists" time="0.152" classname="GetReadFlowGetAllComments"/>
   </testsuite>
-  <testsuite name="GET - Read Flow / Delete created Comment" id="ffae9c22-e8c2-4580-baea-ceda76d2159f" timestamp="2026-06-30T18:18:18.586Z" tests="1" failures="0" errors="0" time="0.198">
-    <testcase name="Deleted successfully" time="0.198" classname="GetReadFlowDeleteCreatedComment"/>
+  <testsuite name="GET - Read Flow / Delete created Comment" id="f214d81f-6949-4cb9-96ff-e1d30d9be98f" timestamp="2026-06-30T18:47:53.538Z" tests="1" failures="0" errors="0" time="0.173">
+    <testcase name="Deleted successfully" time="0.173" classname="GetReadFlowDeleteCreatedComment"/>
   </testsuite>
-  <testsuite name="UPDATE - Update Flow / Create Comment" id="9db7d927-68b5-4c00-a60f-1eaf81966e5c" timestamp="2026-06-30T18:18:18.586Z" tests="2" failures="0" errors="0" time="0.299">
-    <testcase name="Status code 200/201" time="0.299" classname="UpdateUpdateFlowCreateComment"/>
-    <testcase name="Has ID" time="0.299" classname="UpdateUpdateFlowCreateComment"/>
+  <testsuite name="UPDATE - Update Flow / Create Comment" id="038fcd05-c378-481c-9cba-56a1e899e641" timestamp="2026-06-30T18:47:53.538Z" tests="2" failures="0" errors="0" time="0.235">
+    <testcase name="Status code 200/201" time="0.235" classname="UpdateUpdateFlowCreateComment"/>
+    <testcase name="Has ID" time="0.235" classname="UpdateUpdateFlowCreateComment"/>
   </testsuite>
-  <testsuite name="UPDATE - Update Flow / Update Comment" id="aecb4b13-e3e3-4b46-b73e-0d0e455bfc80" timestamp="2026-06-30T18:18:18.586Z" tests="2" failures="0" errors="0" time="0.218">
-    <testcase name="Updated successfully" time="0.218" classname="UpdateUpdateFlowUpdateComment"/>
-    <testcase name="Text updated" time="0.218" classname="UpdateUpdateFlowUpdateComment"/>
+  <testsuite name="UPDATE - Update Flow / Update Comment" id="2fa66da9-3d9b-4cc5-9dd9-c077daba3624" timestamp="2026-06-30T18:47:53.538Z" tests="2" failures="0" errors="0" time="0.234">
+    <testcase name="Updated successfully" time="0.234" classname="UpdateUpdateFlowUpdateComment"/>
+    <testcase name="Text updated" time="0.234" classname="UpdateUpdateFlowUpdateComment"/>
   </testsuite>
-  <testsuite name="UPDATE - Update Flow / Get Created Comment" id="de58d409-ef58-457f-bc7b-44b1aea5f248" timestamp="2026-06-30T18:18:18.586Z" tests="2" failures="0" errors="0" time="0.165">
-    <testcase name="Status 200" time="0.165" classname="UpdateUpdateFlowGetCreatedComment"/>
-    <testcase name="Correct comment returned" time="0.165" classname="UpdateUpdateFlowGetCreatedComment"/>
+  <testsuite name="UPDATE - Update Flow / Get Created Comment" id="24662ee8-b868-45e3-89d0-830da78458ac" timestamp="2026-06-30T18:47:53.538Z" tests="2" failures="0" errors="0" time="0.224">
+    <testcase name="Status 200" time="0.224" classname="UpdateUpdateFlowGetCreatedComment"/>
+    <testcase name="Correct comment returned" time="0.224" classname="UpdateUpdateFlowGetCreatedComment"/>
   </testsuite>
-  <testsuite name="UPDATE - Update Flow / Delete Created Comment" id="b69aef74-6b1c-4c0c-b6ed-1ef56f486059" timestamp="2026-06-30T18:18:18.586Z" tests="1" failures="0" errors="0" time="0.248">
-    <testcase name="Deleted successfully" time="0.248" classname="UpdateUpdateFlowDeleteCreatedComment"/>
+  <testsuite name="UPDATE - Update Flow / Delete Created Comment" id="9c74da7c-8d41-4785-b72a-4c0d9ff394b5" timestamp="2026-06-30T18:47:53.538Z" tests="1" failures="0" errors="0" time="0.216">
+    <testcase name="Deleted successfully" time="0.216" classname="UpdateUpdateFlowDeleteCreatedComment"/>
   </testsuite>
-  <testsuite name="DELETE - Delete Flow / Create Comment" id="10e91a1a-992c-4aa2-8a36-1935cec0b7ca" timestamp="2026-06-30T18:18:18.586Z" tests="2" failures="0" errors="0" time="0.230">
-    <testcase name="Status code 200/201" time="0.230" classname="DeleteDeleteFlowCreateComment"/>
-    <testcase name="Has ID" time="0.230" classname="DeleteDeleteFlowCreateComment"/>
+  <testsuite name="DELETE - Delete Flow / Create Comment" id="44a5fa0a-190f-4fba-aded-63a36f6f3e01" timestamp="2026-06-30T18:47:53.538Z" tests="2" failures="0" errors="0" time="0.256">
+    <testcase name="Status code 200/201" time="0.256" classname="DeleteDeleteFlowCreateComment"/>
+    <testcase name="Has ID" time="0.256" classname="DeleteDeleteFlowCreateComment"/>
   </testsuite>
-  <testsuite name="DELETE - Delete Flow / Get Created Comment" id="d4fe8e0e-05ed-4a72-bf56-51ed54a9c718" timestamp="2026-06-30T18:18:18.586Z" tests="2" failures="0" errors="0" time="0.170">
-    <testcase name="Status 200" time="0.170" classname="DeleteDeleteFlowGetCreatedComment"/>
-    <testcase name="Correct comment returned" time="0.170" classname="DeleteDeleteFlowGetCreatedComment"/>
+  <testsuite name="DELETE - Delete Flow / Get Created Comment" id="55859e37-d62c-4f70-ad0e-4e003fb117cf" timestamp="2026-06-30T18:47:53.538Z" tests="2" failures="0" errors="0" time="0.186">
+    <testcase name="Status 200" time="0.186" classname="DeleteDeleteFlowGetCreatedComment"/>
+    <testcase name="Correct comment returned" time="0.186" classname="DeleteDeleteFlowGetCreatedComment"/>
   </testsuite>
-  <testsuite name="DELETE - Delete Flow / Delete Comment" id="3ad3cbdd-15a1-4e0c-b0f9-133b400ba15c" timestamp="2026-06-30T18:18:18.586Z" tests="1" failures="0" errors="0" time="0.246">
-    <testcase name="Deleted successfully" time="0.246" classname="DeleteDeleteFlowDeleteComment"/>
+  <testsuite name="DELETE - Delete Flow / Delete Comment" id="b9a32e93-cbb0-487e-ab90-770fdbd8c938" timestamp="2026-06-30T18:47:53.538Z" tests="1" failures="0" errors="0" time="0.200">
+    <testcase name="Deleted successfully" time="0.200" classname="DeleteDeleteFlowDeleteComment"/>
   </testsuite>
 </testsuites>
