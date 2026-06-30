@@ -1,0 +1,11 @@
+{
+  "name": "clickup-api-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "newman run postman/ClickUpCommentsCRUDFullCycle.postman_collection.json -e postman/ClickUpAPIEnvironment.postman_environment.json --reporters cli,junit,htmlextra --reporter-junit-export reports/results.xml --reporter-htmlextra-export reports/report.html"
+  },
+  "devDependencies": {
+    "newman": "^6.2.2",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
